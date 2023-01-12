@@ -1,4 +1,5 @@
 # E-commerce G4
+
 ## Projeto final Acelera
 
 Projeto vai utilizar as tecnologias:
@@ -15,3 +16,5 @@ Projeto vai utilizar as tecnologias:
 - [Gabriel Victor Cardoso](https://github.com/vscgabriel)
 - [Alexsandro de Souza](https://github.com/Th3-Al3xX)
 - [Rafael Trindade](https://github.com/ltsrafael)
+
+## Modificação teste Gabriel
