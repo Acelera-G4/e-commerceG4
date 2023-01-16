@@ -16,3 +16,4 @@ Projeto vai utilizar as tecnologias:
 - [Gabriel Victor Cardoso](https://github.com/vscgabriel)
 - [Alexsandro de Souza](https://github.com/Th3-Al3xX)
 - [Rafael Trindade](https://github.com/ltsrafael)
+
