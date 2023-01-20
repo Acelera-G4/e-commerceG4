@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
@@ -16,13 +17,14 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String userType;
     private String name;
-    private String cpfCnpj;
-    private String phoneNumber;
+    private String cpf;
+    private LocalDate dateOfBirthday;
     private String email;
-    private LocalDateTime dateOfBirthday;
+    private String userType;
+    private String phoneNumber;
     private String password;
+    @Embedded
     private Address address;
 
 
