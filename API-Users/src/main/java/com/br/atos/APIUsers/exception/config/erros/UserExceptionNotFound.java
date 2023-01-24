@@ -1,4 +1,4 @@
-package com.br.atos.APIUsers.exception;
+package com.br.atos.APIUsers.exception.config.erros;
 
 public class UserExceptionNotFound extends RuntimeException {
 
