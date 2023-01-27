@@ -1,0 +1,36 @@
+.container {
+  width: 100vw;
+  /* height: 70px; */
+  background-color: #491b89;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 30px;
+  margin-right: 3px;
+}
+
+.icone-menu{
+  width: 6px;
+  margin-left: 7px;
+}
+
+
+.menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.2rem;
+  
+}
+.menu > a {
+  text-decoration: none;
+  color: #ffff;
+  padding: 2px;
+  
+}
+
+
