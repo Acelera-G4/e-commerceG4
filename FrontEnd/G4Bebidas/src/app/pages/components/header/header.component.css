@@ -1,36 +1,34 @@
 .container {
   width: 100vw;
-  /* height: 70px; */
+  height: 70px;
   background-color: #491b89;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .logo {
-  width: 30px;
-  margin-right: 3px;
+  height: 70px;
 }
 
-.icone-menu{
-  width: 6px;
+.icone-menu {
+  width: 30px;
   margin-left: 7px;
 }
-
 
 .menu {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  font-size: 0.2rem;
-  
+  font-size: 1rem;
+  gap: 20px;
 }
 .menu > a {
   text-decoration: none;
   color: #ffff;
-  padding: 2px;
-  
 }
 
-
+.user-container > img {
+  margin: 15px;
+}
