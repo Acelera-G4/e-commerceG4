@@ -6,6 +6,9 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  box-shadow: 1px 1px 5px #AB47BC;
+  font-family: 'Aboreto', cursive;
+  font-size: 700;
 }
 
 .logo {

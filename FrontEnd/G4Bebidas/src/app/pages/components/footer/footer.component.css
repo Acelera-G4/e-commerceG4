@@ -1,5 +1,7 @@
 .container {
   width: 100vw;
+  font-family: 'Aboreto', cursive;
+  font-weight: 500;
   /* height: 70px; */
   background-color: #ffff;
   display: flex;
@@ -110,8 +112,8 @@
   text-align: left;
   color: #491b89;
   font-size: 1rem;
-  font-weight: 500;
-  margin-left: 110px;
+  font-weight: 700;
+  margin-left: 85px;
   height: 15px;
 }
 
@@ -125,6 +127,8 @@
 }
 
 .contato-footer > p {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+
   /* margin-right: 20px; */
 }
