@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Aboreto", cursive;
+}
+
+.form-login {
+  width: 550px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 8px;
+  background-image: linear-gradient(#ab47bc, #5c1fb1);
+  box-shadow: 1px 1px 10px #AB47BC;
+  color: #fff;
+}
+
+.header-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.header-form > img {
+  height: 90px;
+  margin: 15px 0;
+}
+.header-form > h2 {
+  font-size: 2.5rem;
+}
+
+.body-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-input {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 60%;
+  gap: 15px;
+  
+}
+
+.container-input > input {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #fff;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+}
+.container-input > input::placeholder {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.container-checkbox {
+  margin: 25px;
+  /* align-self: center; */
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-left: -4px;
+}
+
+.container-checkbox > input {
+  margin-left: 5px;
+}
+
+.container-checkbox > label {
+  margin-left: 5px;
+  font-size: 0.7rem;
+}
+
+.container-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container-footer,
+a {
+  text-decoration: none;
+  color: rgb(211, 206, 206);
+}
+
+a:hover {
+  color: #ab47bc;
+}
