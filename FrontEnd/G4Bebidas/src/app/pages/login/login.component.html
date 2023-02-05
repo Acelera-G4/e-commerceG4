@@ -1,3 +1,26 @@
-<p>
-  login works!
-</p>
+<div class="container">
+  <form class="form-login">
+    <div class="header-form">
+      <img src="../../../assets/logoG4.svg" alt="logo G4 Bebidas" />
+      <h2>Welcome!</h2>
+    </div>
+    <div class="body-form">
+      <div class="container-input">
+        <input type="text" pInputText placeholder="Login" />
+        <input type="password" pInputText placeholder="Password" />
+        
+      </div>
+      <div class="container-checkbox">
+        <input type="checkbox" name="remeberMe" id="rememberMe" />
+        <label for="rememberMe">Remember me</label>
+      </div>
+      <div class="button">
+        <button>SIGN IN</button>
+    </div>
+    </div>
+    <div class="container-footer">
+      <p>Don't have an account? <a routerLink="/sign-up">Sign Up</a></p>
+      <p><a routerLink="/signUp">Forgot Password?</a></p>
+    </div>
+  </form>
+</div>

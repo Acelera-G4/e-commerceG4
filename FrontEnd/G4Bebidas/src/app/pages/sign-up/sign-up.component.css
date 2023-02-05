@@ -6,91 +6,59 @@
   font-family: "Aboreto", cursive;
 }
 
-.form-login {
+.form-sign-up {
   width: 550px;
-  height: 500px;
+
   margin: 20px;
   border-radius: 8px;
   background-image: linear-gradient(#ab47bc, #5c1fb1);
   box-shadow: 1px 1px 10px #ab47bc;
   color: #fff;
-}
-
-.header-form {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 45px;
-}
-
-.header-form > img {
-  height: 90px;
-  margin: 15px 0;
-}
-.header-form > h2 {
-  font-size: 2.5rem;
-}
-
-.body-form {
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
 }
 
-.container-input {
+.img-perfil {
+  display: flex;
+  justify-content: space-around;
+  margin: 35px;
+}
+
+.container-inputs {
   display: flex;
   flex-direction: column;
-  align-self: center;
+  flex-wrap: wrap;
   width: 60%;
-  gap: 15px;
+  gap: 10px;
+  margin: 20px;
 }
 
-.container-input > input {
-  outline: 0;
+input[type="date"] {
+  background-color: cor;
+}
+input[type="date"]::-webkit-input-placeholder {
+  color: #ffff;
+}
+
+input {
   border-width: 0 0 1px;
   border-color: #fff;
+  color: #ffff;
   border-radius: 0;
   background: transparent;
   padding: 0;
 }
-.container-input > input::placeholder {
+
+input::placeholder {
   color: #fff;
   font-size: 0.8rem;
 }
 
-.container-checkbox {
-  margin: 25px;
-
-  width: 60%;
-  display: flex;
-}
-
-.container-checkbox > input {
-  margin-left: 5px;
-}
-
-.container-checkbox > label {
-  margin-left: 5px;
-  font-size: 0.7rem;
-}
-
-.container-footer {
-  text-align: center;
-}
-
-.container-footer,
-p:nth-child(1) {
-  margin: 20px;
-}
-
-.container-footer,
-a {
-  text-decoration: none;
-  color: rgb(211, 206, 206);
-}
-
-a:hover {
-  color: #ab47bc;
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(1) brightness(1000%) sepia(100%) saturate(10000%)
+    hue-rotate(240deg);
 }
 
 .button {
@@ -113,4 +81,12 @@ a:hover {
 .button > button:hover {
   color: #fff;
   background-color: #5c1fb1;
+}
+
+.link-back {
+  margin: 35px;
+}
+.link-back > a {
+  text-decoration: none;
+  color: #ffff;
 }
