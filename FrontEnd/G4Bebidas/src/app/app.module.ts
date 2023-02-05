@@ -10,6 +10,8 @@ import { CardComponent } from './pages/components/card/card.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import {InputTextModule} from 'primeng/inputtext';
+import { SignUpComponent } from './pages/sign-up/sign-up.component';
+import {InputMaskModule} from 'primeng/inputmask';
 
 
 @NgModule({
@@ -20,13 +22,15 @@ import {InputTextModule} from 'primeng/inputtext';
     FooterComponent,
     LoginComponent,
     CardComponent,
+    SignUpComponent,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    InputTextModule
+    InputTextModule,
+    InputMaskModule
     
    
   ],
