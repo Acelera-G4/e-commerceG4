@@ -6,9 +6,17 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  box-shadow: 1px 1px 5px #AB47BC;
-  font-family: 'Aboreto', cursive;
+  box-shadow: 1px 1px 5px #ab47bc;
+  font-family: "Aboreto", cursive;
   font-size: 700;
+}
+
+.container-dashboard {
+  justify-content: space-between;
+}
+
+.logo-dashboard{
+  margin-left: 45px;
 }
 
 .logo {
@@ -34,4 +42,9 @@
 
 .user-container > img {
   margin: 15px;
+}
+
+.icons > img {
+  height: 30px;
+  margin-right: 45px;
 }
