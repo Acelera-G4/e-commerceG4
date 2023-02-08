@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Order/Order.iml" filepath="$PROJECT_DIR$/Order/Order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Javatos/cursos/cursos.iml" filepath="$PROJECT_DIR$/../Javatos/cursos/cursos.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/e-commerceG4.iml" filepath="$PROJECT_DIR$/.idea/e-commerceG4.iml" />
     </modules>
   </component>

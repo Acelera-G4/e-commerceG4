@@ -8,14 +8,12 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 
-import java.util.ArrayList;
-
 @Table(name = "tb_order")
 @Data
 @Entity
 @Getter
 @Setter
-public class order {
+public class Order {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -32,7 +30,7 @@ public class order {
 
     @OneToMany
     @Id
-    private Long ID_Credicard; //ID do cartão de crédito
+    private Creditcard ID_Credicard; //ID do cartão de crédito
 
     @NotNull
     private Boolean Delivery; //Forma de entrega

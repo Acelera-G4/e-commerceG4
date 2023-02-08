@@ -15,7 +15,7 @@ import java.util.Date;
 @Entity
 @Getter
 @Setter
-public class creditcard {
+public class Creditcard {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
