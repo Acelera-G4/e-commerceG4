@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Aboreto", cursive;
+}
+
+.form-sign-up {
+  width: 550px;
+
+  margin: 20px;
+  border-radius: 8px;
+  background-image: linear-gradient(#ab47bc, #5c1fb1);
+  box-shadow: 1px 1px 10px #ab47bc;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-perfil {
+  display: flex;
+  justify-content: space-around;
+  margin: 35px;
+}
+
+.container-inputs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 60%;
+  gap: 10px;
+  margin: 20px;
+}
+
+input[type="date"] {
+  background-color: cor;
+}
+input[type="date"]::-webkit-input-placeholder {
+  color: #ffff;
+}
+
+input {
+  border-width: 0 0 1px;
+  border-color: #fff;
+  color: #ffff;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+}
+
+input::placeholder {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(1) brightness(1000%) sepia(100%) saturate(10000%)
+    hue-rotate(240deg);
+}
+
+.button {
+  margin: 10px;
+}
+
+.button > button {
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 1px 1px 5px #ab47bc;
+  height: 30px;
+  width: 150px;
+  font-weight: 600;
+  color: #5c1fb1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button > button:hover {
+  color: #fff;
+  background-color: #5c1fb1;
+}
+
+.link-back {
+  margin: 35px;
+}
+.link-back > a {
+  text-decoration: none;
+  color: #ffff;
+}

@@ -1,0 +1,43 @@
+<div class="container container-dashboard">
+  <div class="logo-container">
+    <img
+      routerLink="/"
+      class="logo logo-dashboard"
+      src="../../../../assets/logo2.svg"
+      alt="logo grupo 4"
+    />
+  </div>
+  <div *ngIf="!isDashboard" class="menu-container">
+    <nav class="menu">
+      <a class="menu_link" href="#">MASTERTIPS</a>
+      <a class="menu_link" href="#">VODKA</a>
+      <a class="menu_link" href="#">WHISKY</a>
+      <a class="menu_link" href="#">GIM</a>
+      <a class="menu_link" href="#">NÃO-ALCOÓLICOS</a>
+      <a class="menu_link" href="#">KITS</a>
+    </nav>
+  </div>
+
+  <div *ngIf="!isDashboard" class="user-container">
+    <img
+      routerLink="/login"
+      class="icone-menu"
+      src="../../../../assets/user.svg"
+      alt="icone login"
+    />
+    <img class="icone-menu" src="../../../../assets/bag.svg" alt="" />
+  </div>
+  <!-- conteúdo ficará disponível no dashboard -->
+  <div *ngIf="!isHome" class="icons">
+    <img
+      routerLink="/user"
+      src="../../../assets/Vector.svg"
+      alt="link para visualizar lista usuários "
+    />
+    <img
+    routerLink="/product"
+      src="../../../assets/Vector-1.svg"
+      alt="link para visualizar lista de produtos "
+    />
+  </div>
+</div>
