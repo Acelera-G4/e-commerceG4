@@ -1,5 +1,4 @@
 import { ProductsComponent } from './pages/components/products/products.component';
-import { UserComponent } from './pages/components/user/user.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 import { NgModule } from '@angular/core';
@@ -15,7 +14,6 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'sign-up', component: SignUpComponent},
   {path: 'dashboard', component: DashboardComponent},
-  {path: 'user', component: UserComponent},
   {path: 'product', component: ProductsComponent},
 ];
 
