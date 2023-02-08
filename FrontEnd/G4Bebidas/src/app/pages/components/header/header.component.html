@@ -1,4 +1,4 @@
-<div class="container container-dashboard">
+<div *ngIf="!isLogin && !isSignUp" class="container container-dashboard">
   <div class="logo-container">
     <img
       routerLink="/"
@@ -7,7 +7,7 @@
       alt="logo grupo 4"
     />
   </div>
-  <div *ngIf="!isDashboard" class="menu-container">
+  <div *ngIf="!isHome" class="menu-container">
     <nav class="menu">
       <a class="menu_link" href="#">MASTERTIPS</a>
       <a class="menu_link" href="#">VODKA</a>
@@ -18,7 +18,7 @@
     </nav>
   </div>
 
-  <div *ngIf="!isDashboard" class="user-container">
+  <div *ngIf="!isHome"  class="user-container">
     <img
       routerLink="/login"
       class="icone-menu"
@@ -27,15 +27,14 @@
     />
     <img class="icone-menu" src="../../../../assets/bag.svg" alt="" />
   </div>
-  <!-- conteúdo ficará disponível no dashboard -->
-  <div *ngIf="!isHome" class="icons">
+  <div *ngIf="isDashboard" class="icons">
+    <!-- conteúdo ficará disponível no dashboard -->
     <img
-      routerLink="/user"
       src="../../../assets/Vector.svg"
       alt="link para visualizar lista usuários "
     />
     <img
-    routerLink="/product"
+      routerLink="/product"
       src="../../../assets/Vector-1.svg"
       alt="link para visualizar lista de produtos "
     />

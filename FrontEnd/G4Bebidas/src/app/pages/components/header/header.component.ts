@@ -8,22 +8,28 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent {
   isDashboard = false;
+  isLogin = false;
+  isSignUp = false;
   isHome = false;
 
   constructor(private router: Router) {}
 
   ngOnInit(): void {
     this.router.events.subscribe((event) => {
-      if (
-        this.router.url === '/dashboard' ||
-        this.router.url === '/user' ||
-        this.router.url === '/product'
-      ) {
+      if (this.router.url === '/login' || this.router.url === '/sign-up') {
+        this.isLogin = true;
+        this.isSignUp = true;
+      } else {
+        this.isLogin = false;
+        this.isSignUp = false;
+      }
+
+      if (this.router.url === '/dashboard') {
         this.isDashboard = true;
-        this.isHome = false;
+        this.isHome = true;
       } else {
         this.isDashboard = false;
-        this.isHome = true;
+        this.isHome = false;
       }
     });
   }

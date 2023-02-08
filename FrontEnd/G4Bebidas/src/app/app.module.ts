@@ -14,7 +14,6 @@ import { SignUpComponent } from './pages/sign-up/sign-up.component';
 import { InputMaskModule } from 'primeng/inputmask';
 import {TableModule} from 'primeng/table';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
-import { UserComponent } from './pages/components/user/user.component';
 import { ProductsComponent } from './pages/components/products/products.component';
 
 @NgModule({
@@ -27,7 +26,6 @@ import { ProductsComponent } from './pages/components/products/products.componen
     SignUpComponent,
     DashboardComponent,
     HeaderComponent,
-    UserComponent,
     ProductsComponent
     
   ],

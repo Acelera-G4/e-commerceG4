@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class FooterComponent {
   isDashboard = false;
- 
+  isHome = false;
 
   constructor(private router: Router) {}
 
@@ -17,14 +17,14 @@ export class FooterComponent {
       if (
         this.router.url === '/dashboard' ||
         this.router.url === '/user' ||
-        this.router.url === '/product'
+        this.router.url === '/product' ||
+        this.router.url === '/login' ||
+        this.router.url === '/sign-up'
       ) {
         this.isDashboard = true;
       } else {
         this.isDashboard = false;
       }
     });
-
-
   }
 }
