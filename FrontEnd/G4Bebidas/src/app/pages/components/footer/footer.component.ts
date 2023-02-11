@@ -19,7 +19,8 @@ export class FooterComponent {
         this.router.url === '/user' ||
         this.router.url === '/product' ||
         this.router.url === '/login' ||
-        this.router.url === '/sign-up'
+        this.router.url === '/sign-up'||
+        this.router.url === '/list-users'
       ) {
         this.isDashboard = true;
       } else {

@@ -1,3 +1,4 @@
+import { ListUsersComponent } from './pages/components/list-users/list-users.component';
 import { HeaderComponent } from './pages/components/header/header.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -13,8 +14,11 @@ import { InputTextModule } from 'primeng/inputtext';
 import { SignUpComponent } from './pages/sign-up/sign-up.component';
 import { InputMaskModule } from 'primeng/inputmask';
 import {TableModule} from 'primeng/table';
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
+
 import { ProductsComponent } from './pages/components/products/products.component';
+import {ChartModule} from 'primeng/chart';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +30,8 @@ import { ProductsComponent } from './pages/components/products/products.componen
     SignUpComponent,
     DashboardComponent,
     HeaderComponent,
-    ProductsComponent
+    ProductsComponent,
+    ListUsersComponent
     
   ],
   imports: [
@@ -35,7 +40,8 @@ import { ProductsComponent } from './pages/components/products/products.componen
     BrowserAnimationsModule,
     InputTextModule,
     InputMaskModule,
-    TableModule
+    TableModule,
+    ChartModule
     
   ],
   exports: [AppRoutingModule],
