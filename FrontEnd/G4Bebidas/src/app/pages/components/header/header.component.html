@@ -18,25 +18,21 @@
     </nav>
   </div>
 
-  <div *ngIf="!isHome"  class="user-container">
-    <img
-      routerLink="/login"
-      class="icone-menu"
-      src="../../../../assets/user.svg"
-      alt="icone login"
-    />
-    <img class="icone-menu" src="../../../../assets/bag.svg" alt="" />
+  <div *ngIf="!isHome" class="user-container">
+    <i class="pi pi-user" routerLink="/login"></i>
+    <i class="pi pi-shopping-cart" alt="icone carrinho de compras"></i>
   </div>
   <div *ngIf="isDashboard" class="icons">
     <!-- conteúdo ficará disponível no dashboard -->
-    <img
-      src="../../../assets/Vector.svg"
+    <i
+      class="pi pi-user-edit"
+      routerLink="/list-users"
       alt="link para visualizar lista usuários "
-    />
-    <img
+    ></i>
+    <i
+      class="pi pi-list"
       routerLink="/product"
-      src="../../../assets/Vector-1.svg"
       alt="link para visualizar lista de produtos "
-    />
+    ></i>
   </div>
 </div>

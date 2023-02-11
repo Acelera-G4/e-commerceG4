@@ -1,4 +1,7 @@
-
-<div class="content">
-  <div class="card-apresentation">sou card de apresentação</div>
+<div class="container">
+  <div class="content">
+    <!-- <div class="card-apresentation">sou card de apresentação</div> -->
+    <p-chart type="pie" width="20vw" height="50vh" [data]="data"></p-chart>
+    <button type="button" pButton (click)="update($event)"></button>
+  </div>
 </div>

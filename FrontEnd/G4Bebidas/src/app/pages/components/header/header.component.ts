@@ -24,7 +24,11 @@ export class HeaderComponent {
         this.isSignUp = false;
       }
 
-      if (this.router.url === '/dashboard') {
+      if (
+        this.router.url === '/dashboard' ||
+        this.router.url === '/list-users'||
+        this.router.url === '/product'
+      ) {
         this.isDashboard = true;
         this.isHome = true;
       } else {
