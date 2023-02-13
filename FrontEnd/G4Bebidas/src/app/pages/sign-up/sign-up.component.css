@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  font-family: "Aboreto", cursive;
+  
 }
 
 .form-sign-up {
@@ -62,7 +62,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .button {
-  margin: 10px;
+  margin: 20px 0;
 }
 
 .button > button {
@@ -84,9 +84,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .link-back {
-  margin: 35px;
+  margin: 30px 0;
 }
-.link-back > a {
-  text-decoration: none;
+.link-back > p {
   color: #ffff;
+}
+.link-back > p:hover {
+  color: #ab47bc;
+  cursor: pointer;
 }

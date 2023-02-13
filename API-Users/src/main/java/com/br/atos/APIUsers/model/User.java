@@ -18,8 +18,6 @@ import static com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL;
 @Table(name = "tb_User")
 @JsonInclude(NON_NULL)
 @Data
-@Getter
-@Setter
 public class User {
 
     @Id

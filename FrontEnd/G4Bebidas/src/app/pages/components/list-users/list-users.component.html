@@ -5,23 +5,23 @@
         <th class="header-list">ID</th>
         <th>Name</th>
         <th>CPF</th>
-        <th>Bithday</th>
+        <th>Birthday</th>
         <th>Email</th>
         <th>User Type</th>
         <th>Phone</th>
         <th></th>
-        <th></th>
+        <th><i class="pi pi-user-plus"></i></th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>1</td>
-        <td>Carlim</td>
-        <td>123.232.223-09</td>
-        <td>20/01/1992</td>
-        <td>carlim@mail.com</td>
-        <td>Cliente</td>
-        <td>21-998989998</td>
+      <tr *ngFor="let user of listUsers">
+        <td>{{user.id}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.cpf}}</td>
+        <td>{{user.dateOfBirthday}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.userType}}</td>
+        <td>{{user.phoneNumber}}</td>
         <td><i class="pi pi-user-edit"></i></td>
         <td><i class="pi pi-times"></i></td>
       </tr>

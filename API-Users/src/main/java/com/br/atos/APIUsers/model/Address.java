@@ -14,6 +14,7 @@ public class Address {
     @JsonProperty(value = "logradouro")
     public String rua;
     public String bairro;
+    public String numero;
     public String complemento;
     //localidade
     @JsonProperty(value = "localidade")

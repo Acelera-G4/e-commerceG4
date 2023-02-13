@@ -7,7 +7,7 @@
   align-items: center;
   flex-wrap: wrap;
   box-shadow: 1px 1px 5px #ab47bc;
-  font-family: "Aboreto", cursive;
+  /* font-family: 'Roboto', sans-serif; */
   font-size: 700;
 }
 
@@ -42,7 +42,7 @@
 
 .user-container > i {
   margin: 15px;
-  font-size: 25px;
+  font-size: 20px;
   color: #ffff;
   background-color: #aa47bc61;
   border-radius: 50%;
@@ -55,7 +55,7 @@
 }
 
 .icons > i {
-  font-size: 25px;
+  font-size: 20px;
   margin-right: 30px;
   background-color: #aa47bc61;
   border-radius: 50%;
