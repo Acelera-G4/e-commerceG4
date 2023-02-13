@@ -1,8 +1,6 @@
 .container {
   width: 100vw;
-  font-family: 'Aboreto', cursive;
   font-weight: 500;
-  /* height: 70px; */
   background-color: #ffff;
   display: flex;
   justify-content: space-around;

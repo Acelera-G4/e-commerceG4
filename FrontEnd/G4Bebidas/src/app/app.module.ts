@@ -1,3 +1,5 @@
+import { ChartModule } from 'primeng/chart';
+
 import { ListUsersComponent } from './pages/components/list-users/list-users.component';
 import { HeaderComponent } from './pages/components/header/header.component';
 import { NgModule } from '@angular/core';
@@ -13,12 +15,11 @@ import { LoginComponent } from './pages/login/login.component';
 import { InputTextModule } from 'primeng/inputtext';
 import { SignUpComponent } from './pages/sign-up/sign-up.component';
 import { InputMaskModule } from 'primeng/inputmask';
-import {TableModule} from 'primeng/table';
-
+import { TableModule } from 'primeng/table';
+import { HttpClientModule } from '@angular/common/http';
 import { ProductsComponent } from './pages/components/products/products.component';
-import {ChartModule} from 'primeng/chart';
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -31,8 +32,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     DashboardComponent,
     HeaderComponent,
     ProductsComponent,
-    ListUsersComponent
-    
+    ListUsersComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,8 +41,8 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     InputTextModule,
     InputMaskModule,
     TableModule,
-    ChartModule
-    
+    ChartModule,
+    HttpClientModule
   ],
   exports: [AppRoutingModule],
   providers: [],

@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  font-family: "Aboreto", cursive;
+  
 }
 
 .form-login {
@@ -89,6 +89,13 @@ a {
 }
 
 a:hover {
+  color: #ab47bc;
+}
+
+.container-footer > p:nth-child(3) {
+  cursor: pointer;
+}
+.container-footer > p:nth-child(3):hover {
   color: #ab47bc;
 }
 
