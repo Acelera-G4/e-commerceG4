@@ -9,14 +9,15 @@ import { User } from "../models/user";
 })
 export class UserService {
     url: string  = "http://localhost:8080/user";
+    
     constructor(private httpClient: HttpClient ){}
 
     listAllUsers(): Observable<User[]>{
         return this.httpClient.get<User[]>(`${this.url}`);
     }
 
-    // deleteUser(id: number): Observable<User>{
-    //     return this.httpClient.delete<User>(`${this.url}/$`);
+    deleteUserById(id: number): Observable<User>{
+        return this.httpClient.delete<User>(`${this.url}/${id}`);
     
-    //   }
+      }
 }

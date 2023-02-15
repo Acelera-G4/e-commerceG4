@@ -43,6 +43,13 @@
   border-radius: 50%;
   color: #ab47bc;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.pi:hover {
+  background-color: #6e2c9d;
+  color: #fff;
+  
 }
 
 @media (max-width: 644px) {
