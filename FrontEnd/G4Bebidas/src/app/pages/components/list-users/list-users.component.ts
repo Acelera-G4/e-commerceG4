@@ -29,10 +29,10 @@ export class ListUsersComponent {
       });
   }
 
-  // deleteUser(id: number): void {
-  //   this.userService.deleteUser(id).subscribe({
-  //     next: (value) => this.listAllUsers(),
-  //     error: (error) => console.log(error),
-  //   });
-  // }
+  deleteUserById(id: number): void {
+    this.userService.deleteUserById(id).subscribe({
+      next: (value) => this.listAllUsers(),
+      error: (error) => console.log(error),
+    });
+  }
 }

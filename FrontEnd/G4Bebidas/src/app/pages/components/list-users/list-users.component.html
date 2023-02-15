@@ -23,7 +23,7 @@
         <td>{{user.userType}}</td>
         <td>{{user.phoneNumber}}</td>
         <td><i class="pi pi-user-edit"></i></td>
-        <td><i class="pi pi-times"></i></td>
+        <td ><i class="pi pi-times" (click)="deleteUserById(user.id)" ></i></td>
       </tr>
     </tbody>
   </table>
