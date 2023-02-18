@@ -33,14 +33,16 @@ public class UserService {
         return userRepository.findById(id).orElseThrow(() -> new UserExceptionNotFound("Id do usuário não localizado"));
     }
 
-    public User createUser(User user) {
-        log.info("Persistindo objeto");
-        existsCpfOrEmail(user);
-        Address address = addressService.searchAddress(user.getAddress().getCep());
-        user.setAddress(address);
-        User userModel = userRepository.save(user);
-        log.info("Persistindo objeto");
-        return userModel;
+    public User createUser(User user) throws DuplicateUserException {
+
+
+            if (userRepository.existsByCpf(user.getCpf())) {
+                throw new DuplicateUserException("Já existe um usuário com este CPF.");
+            }
+            if (userRepository.existsByEmail(user.getEmail())) {
+                throw new DuplicateUserException("Já existe um usuário com este e-mail.");
+            }
+            return userRepository.save(user);
 
     }
 
@@ -69,16 +71,16 @@ public class UserService {
         }
     }
 
-    public void existsCpfOrEmail(User user) {
-        Optional<User> userEntityCpf = userRepository.findByCpf(user.getCpf());
-        Optional<User> UserEntityEmail = userRepository.findByEmail(user.getEmail());
-        if (userEntityCpf.isPresent()) {
-            throw new DuplicateUserException("CPF já cadastrado na aplicação");
-        }
-        if (UserEntityEmail.isPresent()) {
-            throw new DuplicateUserException("Email já cadastrado na aplicação");
-        }
-    }
+//    public void existsCpfOrEmail(User user) {
+//        Optional<User> userEntityCpf = userRepository.findByCpf(user.getCpf());
+//        Optional<User> UserEntityEmail = userRepository.findByEmail(user.getEmail());
+//        if (userEntityCpf.isPresent()) {
+//            throw new DuplicateUserException("CPF já cadastrado na aplicação");
+//        }
+//        if (UserEntityEmail.isPresent()) {
+//            throw new DuplicateUserException("Email já cadastrado na aplicação");
+//        }
+//    }
 
     public ResponseEntity<User> searchCpf(String cpf) {
         try {

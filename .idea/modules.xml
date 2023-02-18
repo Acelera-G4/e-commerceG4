@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Order/Order.iml" filepath="$PROJECT_DIR$/Order/Order.iml" />      
+      <module fileurl="file://$PROJECT_DIR$/API-Users/API-Users.iml" filepath="$PROJECT_DIR$/API-Users/API-Users.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Order/Order.iml" filepath="$PROJECT_DIR$/Order/Order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProductApi/ProductApi.iml" filepath="$PROJECT_DIR$/ProductApi/ProductApi.iml" />
     </modules>
   </component>
 </project>

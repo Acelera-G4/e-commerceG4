@@ -3,20 +3,15 @@ package com.br.atos.APIUsers.model;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.Date;
 
-import static com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL;
+import java.util.Date;
+import java.util.List;
+
 
 @Entity
-@Table(name = "tb_User")
-@JsonInclude(NON_NULL)
 @Data
 public class User {
 
@@ -42,18 +37,15 @@ public class User {
     @Email(message = "Email informado invalido")
     private String email;
 
-    @NotNull
+    //    @NotNull
     private String userType;
 
-    @NotNull
-    @Column(name = "v_phoneNumber", length = 11, nullable = false, unique = true)
+    //    @NotNull
+    @Column(name = "v_phoneNumber", length = 11, nullable = false)
     private String phoneNumber;
 
-    @NotNull
+    //    @NotNull
     private String password;
-
-    @Embedded
-    private Address address;
 
 
 }

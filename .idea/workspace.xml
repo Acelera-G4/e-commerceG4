@@ -5,29 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21bb6def-d3cb-493c-a643-a62f71767e06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/controllers/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/controllers/AddressController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/G4Bebidas/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/list-users/list-users.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/list-users/list-users.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/list-users/list-users.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/list-users/list-users.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/components/footer/footer.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/components/footer/footer.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/components/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/components/header/header.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/components/list-users/list-users.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/components/list-users/list-users.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/components/list-users/list-users.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/components/list-users/list-users.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/components/list-users/list-users.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/components/list-users/list-users.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/dashboard/dashboard.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/login/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/login/login.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/sign-up/sign-up.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/sign-up/sign-up.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/sign-up/sign-up.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/app/pages/sign-up/sign-up.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/G4Bebidas/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Users/src/test/java/com/br/atos/APIUsers/ApiUsersApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/test/java/com/br/atos/APIUsers/ApiUsersApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +33,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -57,16 +43,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/a850253/Documents/Acellera/Projeto Acelera G4/e-commerce-G4/e-commerceG4/API-Users&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/dev/Acellera/Projeto Acelera G4/e-commerce-G4/e-commerceG4/API-Users",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projetos\e-commerceG4\Order\src\main\java\br\com\DrinksAndClubs\Order" />
