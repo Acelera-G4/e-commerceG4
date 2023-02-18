@@ -16,5 +16,10 @@ public class RestResponseError {
         rest.error = mensage;
         return rest;
 
+    }public static RestResponseError addressNotFoundException(String mensage){
+        RestResponseError rest = new RestResponseError();
+        rest.error = mensage;
+        return rest;
+
     }
 }
