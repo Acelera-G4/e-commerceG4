@@ -4,7 +4,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Order/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/API-Users/pom.xml" />
+        <option value="$PROJECT_DIR$/ProductApi/pom.xml" />
+>>>>>>> main
       </list>
     </option>
   </component>
