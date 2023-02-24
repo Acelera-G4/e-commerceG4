@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21bb6def-d3cb-493c-a643-a62f71767e06" name="Changes" comment="ECAG-30 &lt;criação da classe Creditcard&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/CreditcardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/CreditcardService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

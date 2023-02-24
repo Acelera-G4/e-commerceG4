@@ -22,13 +22,11 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int Number; //Numero do pedido
 
-    @ManyToMany
     private List<Product> id_product = new ArrayList<>(); //ID dos produtos do cliente
 
     @Column(nullable = false)
     private String Payment; //tipo de pagamento
 
-    @OneToMany
     @Id
     private Creditcard ID_Credicard; //ID do cartão de crédito
 
