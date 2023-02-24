@@ -2,20 +2,36 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Order" />
+        <module name="config-server" />
+        <module name="ProductApi" />
+        <module name="gateway" />
+        <module name="service-discovery" />
+        <module name="API-Users" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="API-Users" target="19" />
+      <module name="config-server" target="19" />
+      <module name="gateway" target="19" />
       <module name="Order" target="11" />
+      <module name="ProductApi" target="11" />
+      <module name="service-discovery" target="19" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="API-Users" options="-parameters" />
       <module name="Order" options="-parameters" />
+      <module name="ProductApi" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="service-discovery" options="-parameters" />
     </option>
   </component>
 </project>
