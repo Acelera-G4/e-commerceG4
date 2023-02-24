@@ -6,9 +6,12 @@
         <option value="$PROJECT_DIR$/Order/pom.xml" />
         <option value="$PROJECT_DIR$/API-Users/pom.xml" />
         <option value="$PROJECT_DIR$/ProductApi/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/service-discovery/pom.xml" />
+=======
+>>>>>>> main
       </list>
     </option>
   </component>
