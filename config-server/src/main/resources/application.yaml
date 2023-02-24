@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: native
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git: file://C:\Users\a832444\e-commerceG4\e-commerceG4
+

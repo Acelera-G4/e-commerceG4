@@ -8,14 +8,30 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Order" />
+<<<<<<< HEAD
+        <module name="config-server" />
         <module name="ProductApi" />
+        <module name="gateway" />
+        <module name="service-discovery" />
+=======
+        <module name="ProductApi" />
+>>>>>>> main
         <module name="API-Users" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+<<<<<<< HEAD
+      <module name="API-Users" target="19" />
+      <module name="config-server" target="19" />
+      <module name="gateway" target="19" />
+      <module name="Order" target="11" />
+      <module name="ProductApi" target="11" />
+      <module name="service-discovery" target="19" />
+=======
       <module name="API-Users" target="17" />
       <module name="Order" target="11" />
       <module name="ProductApi" target="11" />
+>>>>>>> main
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +39,12 @@
       <module name="API-Users" options="-parameters" />
       <module name="Order" options="-parameters" />
       <module name="ProductApi" options="-parameters" />
+<<<<<<< HEAD
+      <module name="config-server" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="service-discovery" options="-parameters" />
+=======
+>>>>>>> main
     </option>
   </component>
 </project>
