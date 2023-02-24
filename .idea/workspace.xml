@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21bb6def-d3cb-493c-a643-a62f71767e06" name="Changes" comment="ECAG-30 atualização da classe Order">
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/controller/CreditcardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/repository/CreditcardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/CreditcardService.java" afterDir="false" />
+    <list default="true" id="21bb6def-d3cb-493c-a643-a62f71767e06" name="Changes" comment="ECAG-30 &lt;criação da classe Creditcard&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677201343247</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ECAG-30 &lt;criação da classe Creditcard&gt;">
+      <created>1677269614006</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677269614006</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +145,7 @@
     <MESSAGE value="ECAG-15 criação das classes" />
     <MESSAGE value="ECAG-29 atualização da classe Order" />
     <MESSAGE value="ECAG-30 atualização da classe Order" />
-    <option name="LAST_COMMIT_MESSAGE" value="ECAG-30 atualização da classe Order" />
+    <MESSAGE value="ECAG-30 &lt;criação da classe Creditcard&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="ECAG-30 &lt;criação da classe Creditcard&gt;" />
   </component>
 </project>
