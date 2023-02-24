@@ -4,11 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="21bb6def-d3cb-493c-a643-a62f71767e06" name="Changes" comment="ECAG-30 &lt;criação da classe Creditcard&gt;">
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/CreditcardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/CreditcardService.java" afterDir="false" />
-=======
     <list default="true" id="21bb6def-d3cb-493c-a643-a62f71767e06" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
@@ -18,19 +13,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-Users/src/test/java/com/br/atos/APIUsers/ApiUsersApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/test/java/com/br/atos/APIUsers/ApiUsersApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/order.java" afterDir="false" />
->>>>>>> main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -39,19 +26,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="1ae0e1aa-9b71-44b2-b6b9-df749323851e" />
-        <option name="url" value="https://github.com/Acelera-G4/e-commerceG4.git" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,27 +39,10 @@
     </option>
   </component>
   <component name="ProjectId" id="2LEKcON1gyooggbwpC2lzvc88Rn" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projetos/Angular/microservico&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
-=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -94,7 +51,6 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
->>>>>>> main
   }
 }]]></component>
   <component name="RecentsManager">
@@ -130,35 +86,6 @@
       <option name="presentableId" value="Default" />
       <updated>1675430884828</updated>
     </task>
-    <task id="LOCAL-00001" summary="ECAG-15 criação das classes">
-      <created>1675432910346</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1675432910346</updated>
-    </task>
-    <task id="LOCAL-00002" summary="ECAG-29 atualização da classe Order">
-      <created>1677200978031</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1677200978031</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ECAG-30 atualização da classe Order">
-      <created>1677201343247</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1677201343247</updated>
-    </task>
-    <task id="LOCAL-00004" summary="ECAG-30 &lt;criação da classe Creditcard&gt;">
-      <created>1677269614006</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1677269614006</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,13 +110,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ECAG-15 criação das classes" />
-    <MESSAGE value="ECAG-29 atualização da classe Order" />
-    <MESSAGE value="ECAG-30 atualização da classe Order" />
-    <MESSAGE value="ECAG-30 &lt;criação da classe Creditcard&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="ECAG-30 &lt;criação da classe Creditcard&gt;" />
   </component>
 </project>
