@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21bb6def-d3cb-493c-a643-a62f71767e06" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_7_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_7_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_7_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_7_6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/ApiUsersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/ApiUsersApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/repository/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/repository/AddressRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/security/WebConfiCors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/security/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Order/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/Order/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/Order/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/creditcard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/creditcard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/test/java/br/com/DrinksAndClubs/Order/OrderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/test/java/br/com/DrinksAndClubs/Order/OrderApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/integration/endpoint/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/integration/endpoint/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/apiusers.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/apiusers.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/gateway.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/br/com/ecommerceg4/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/br/com/ecommerceg4/gateway/GatewayApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
