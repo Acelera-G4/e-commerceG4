@@ -27,6 +27,30 @@ public class CreditcardService {
         return creditcardRepository.findAllByName(name);
     }
 
+<<<<<<< HEAD
     //code here
+=======
+    public Creditcard update(Creditcard creditcard) {
+        Creditcard ccEntity = creditcardRepository.findById(creditcard.getID()).orElseThrow();
+        ccEntity.setID(creditcard.getID());
+        ccEntity.setType(creditcard.getType());
+        ccEntity.setNumber(creditcard.getNumber());
+        ccEntity.setName(creditcard.getName());
+        ccEntity.setSecretCode(creditcard.getSecretCode());
+        ccEntity.setValidate(creditcard.getValidate());
+        ccEntity.setInstallment(creditcard.getInstallment());
+
+        return creditcardRepository.save(ccEntity);
+    }
+
+    public void delete(Long id) {
+        try{
+            creditcardRepository.deleteById(id);
+        } catch (RuntimeException e) {
+            throw new RuntimeException("Cartão não localizado");
+        }
+    }
+
+>>>>>>> main
 }
 
