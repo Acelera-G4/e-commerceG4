@@ -3,9 +3,7 @@ package com.rafael.ProductApi.domain.entity;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 @Entity
 @Getter
@@ -13,7 +11,8 @@ import javax.persistence.ManyToOne;
 public class Product {
 
     @Id
-    private Integer productId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long productId;
 
     private String name;
 
