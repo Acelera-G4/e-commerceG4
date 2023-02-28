@@ -10,6 +10,6 @@ import java.util.List;
 @Repository
 public interface CreditcardRepository extends JpaRepository<Creditcard, Long> {
 
-    @Query("select * from tb_credit-card where name like %?%")
-    List<Creditcard> findAllByName(String name);
+//    @Query("select * from tb_credit-card where name like %?%")
+//    List<Creditcard> findAllByName(String name);
 }

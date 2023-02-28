@@ -29,10 +29,10 @@ public class OrderController {
         return orderService.getAllOrder();
     }
 
-    @PutMapping
-    public Order update(Order order){
-        return orderService.update(order);
-    }
+//    @PutMapping
+//    public Order update(Order order){
+//        return orderService.update(order);
+//    }
 
     @DeleteMapping("/{id}")
     public void delete(Long id){

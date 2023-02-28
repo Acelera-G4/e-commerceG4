@@ -23,13 +23,10 @@ public class CreditcardService {
                 .orElseThrow(() -> new OrderExceptionNotFound("Cartão de Crédito não encontrado"));
     }
 
-    public List<Creditcard> getAllCards(String name) {
-        return creditcardRepository.findAllByName(name);
-    }
+//    public List<Creditcard> getAllCards(String name) {
+//        return creditcardRepository.findAllByName(name);
+//    }
 
-<<<<<<< HEAD
-    //code here
-=======
     public Creditcard update(Creditcard creditcard) {
         Creditcard ccEntity = creditcardRepository.findById(creditcard.getID()).orElseThrow();
         ccEntity.setID(creditcard.getID());
@@ -51,6 +48,8 @@ public class CreditcardService {
         }
     }
 
->>>>>>> main
+    public List<Creditcard> get() {
+       return creditcardRepository.findAll();
+    }
 }
 

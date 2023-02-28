@@ -27,22 +27,20 @@ public class OrderService {
         return orderRepository.findAll();
     }
 
-    public Order update(Order order){
-        Order orderEntity = orderRepository.findById(order.getID()).orElseThrow();
-<<<<<<< HEAD
-        orderEntity.getId_product().get(0).setId(order.getID());
-=======
-        orderEntity.setID(order.getID());
-        orderEntity.setNumber(order.getNumber());
-        orderEntity.setId_product(order.getId_product());
-        orderEntity.setPayment(order.getPayment());
-        orderEntity.setID_Credicard(order.getID_Credicard());
-        orderEntity.setDelivery(order.getDelivery());
-        orderEntity.setID_Client(order.getID_Client());
-
->>>>>>> main
-        return orderRepository.save(orderEntity);
-    }
+//    public Order update(Order order){
+//        Order orderEntity = orderRepository.findById(order.getID()).orElseThrow();
+//
+//        orderEntity.getId_product().get(0).setId(order.getID());
+//        orderEntity.setID(order.getID());
+//        orderEntity.setNumber(order.getNumber());
+//        orderEntity.setId_product(order.getId_product());
+//        orderEntity.setPayment(order.getPayment());
+//        orderEntity.setID_Credicard(order.getID_Credicard());
+//        orderEntity.setDelivery(order.getDelivery());
+//        orderEntity.setID_Client(order.getID_Client());
+//
+//        return orderRepository.save(orderEntity);
+//    }
 
     public void delete(Long id){
         try{
@@ -51,5 +49,4 @@ public class OrderService {
             throw new RuntimeException("Pedido não localizado");
         }
     }
-
 }
