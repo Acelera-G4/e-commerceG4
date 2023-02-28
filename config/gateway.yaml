@@ -14,7 +14,7 @@ eureka:
 #          lower-case-service-id: true
 #      routes:
 #        - id: USERS
-#          uri: http://localhost:8881/
+#          uri: http://localhost:8081/
 #          predicates:
 #            - Path=/cadastro/**
 #        - id: PRODUCT

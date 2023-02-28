@@ -15,7 +15,7 @@ import java.util.Date;
 @Entity
 @Getter
 @Setter
-public class creditcard {
+public class Creditcard {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -47,5 +47,5 @@ public class creditcard {
     @Column(nullable = false)
     @NotBlank(message = "este campo não pode ser nulo!")
     private String Installment; //Parcelado ou a vista;
-//1
+
 }

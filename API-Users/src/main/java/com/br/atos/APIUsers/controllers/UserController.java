@@ -21,6 +21,7 @@ public class UserController {
 
     @GetMapping
     public List<User> getAllUsers() {
+        log.info("***** Chamou aqui ******");
         return userService.getAllUsers();
     }
 

@@ -14,7 +14,7 @@
 	<name>Order</name>
 	<description>microserviço integrante de e-commerceG4</description>
 	<properties>
-		<java.version>19</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

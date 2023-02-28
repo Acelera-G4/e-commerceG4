@@ -19,7 +19,7 @@
       <module name="API-Users" target="19" />
       <module name="config-server" target="19" />
       <module name="gateway" target="19" />
-      <module name="Order" target="19" />
+      <module name="Order" target="11" />
       <module name="ProductApi" target="19" />
       <module name="service-discovery" target="19" />
     </bytecodeTargetLevel>

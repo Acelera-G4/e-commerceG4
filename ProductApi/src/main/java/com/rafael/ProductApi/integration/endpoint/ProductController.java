@@ -16,9 +16,14 @@ public class ProductController {
     private final ProductService productService;
 
     @GetMapping
-    public ResponseEntity<Product> getProduct(@RequestParam Integer id) {
-        return ResponseEntity.ok().body(productService.getProduct(id));
+    public String get(){
+        return "deu certo!!";
     }
+
+//    @GetMapping
+//    public ResponseEntity<Product> getProduct(@RequestParam Integer id) {
+//        return ResponseEntity.ok().body(productService.getProduct(id));
+//    }
 
     @GetMapping("/all")
     public ResponseEntity<List<Product>> getProducts() {
