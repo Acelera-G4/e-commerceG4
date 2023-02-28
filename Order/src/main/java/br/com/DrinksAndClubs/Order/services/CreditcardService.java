@@ -27,6 +27,9 @@ public class CreditcardService {
         return creditcardRepository.findAllByName(name);
     }
 
+<<<<<<< HEAD
+    //code here
+=======
     public Creditcard update(Creditcard creditcard) {
         Creditcard ccEntity = creditcardRepository.findById(creditcard.getID()).orElseThrow();
         ccEntity.setID(creditcard.getID());
@@ -48,5 +51,6 @@ public class CreditcardService {
         }
     }
 
+>>>>>>> main
 }
 
