@@ -6,16 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="21bb6def-d3cb-493c-a643-a62f71767e06" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductApi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/domain/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/domain/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/domain/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/domain/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/domain/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/domain/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/domain/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/domain/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/integration/endpoint/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/integration/endpoint/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/integration/endpoint/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/integration/endpoint/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/integration/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/integration/repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/integration/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/integration/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/product.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/product.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/controller/CreditcardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/controller/CreditcardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/Creditcard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/Creditcard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/repository/CreditcardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/repository/CreditcardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/CreditcardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/CreditcardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/br/com/ecommerceg4/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/br/com/ecommerceg4/gateway/GatewayApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "C:/Users/a832444/e-commerceG4/e-commerceG4/ProductApi/src/main/java/com/rafael/ProductApi",
+    "last_opened_file_path": "C:/Users/a832444/e-commerceG4/e-commerceG4/config",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -67,14 +67,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\a832444\e-commerceG4\e-commerceG4\ProductApi\src\main\java\com\rafael\ProductApi" />
       <recent name="C:\Users\a832444\e-commerceG4\e-commerceG4\config" />
+      <recent name="C:\Users\a832444\e-commerceG4\e-commerceG4\Order\src\main\java\br\com\DrinksAndClubs\Order" />
+      <recent name="C:\Users\a832444\e-commerceG4\e-commerceG4\ProductApi\src\main\java\com\rafael\ProductApi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projetos\e-commerceG4\Order\src\main\java\br\com\DrinksAndClubs\Order" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductApiApplication">
+  <component name="RunManager" selected="Application.OrderApplication">
     <configuration name="ApiUsersApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ecommerceg4.config.ConfigServerApplication" />
-      <module name="config-server" />
+    <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ecommerceg4.gateway.GatewayApplication" />
+      <module name="gateway" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.ecommerceg4.config.*" />
+          <option name="PATTERN" value="br.com.ecommerceg4.gateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ecommerceg4.gateway.GatewayApplication" />
-      <module name="gateway" />
+    <configuration name="OrderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.DrinksAndClubs.Order.OrderApplication" />
+      <module name="Order" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.ecommerceg4.gateway.*" />
+          <option name="PATTERN" value="br.com.DrinksAndClubs.Order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,19 +144,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.OrderApplication" />
       <item itemvalue="Application.ProductApiApplication" />
       <item itemvalue="Application.GatewayApplication" />
       <item itemvalue="Application.ServiceDiscoveryApplication" />
       <item itemvalue="Application.ApiUsersApplication" />
-      <item itemvalue="Application.ConfigServerApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderApplication" />
+        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.ProductApiApplication" />
         <item itemvalue="Application.ApiUsersApplication" />
-        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.ServiceDiscoveryApplication" />
-        <item itemvalue="Application.ConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +191,16 @@
             </State>
           </value>
         </entry>
+        <entry key="a9d8d905-bb8c-4c3e-a778-3229551dfc34">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="a9d8d905-bb8c-4c3e-a778-3229551dfc34" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>

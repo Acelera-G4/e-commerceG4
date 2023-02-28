@@ -24,10 +24,15 @@ public class CreditcardController {
         return creditcardService.getIDCard(id);
     }
 
-    @GetMapping("/{name}")
-    public List<Creditcard> getAllCards(String name){
-        return creditcardService.getAllCards(name);
+    @GetMapping
+    public List<Creditcard> get(){
+         return creditcardService.get();
     }
+
+//    @GetMapping("/{name}")
+//    public List<Creditcard> getAllCards(String name){
+//        return creditcardService.getAllCards(name);
+//    }
 
     @PutMapping
     public Creditcard update(Creditcard creditcard){

@@ -8,7 +8,6 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.util.Date;
 
-//@Table(name = "tb_credit-card")
 @Data
 @Entity
 @Getter
