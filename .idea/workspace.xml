@@ -5,22 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21bb6def-d3cb-493c-a643-a62f71767e06" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OrderAPI/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/controller/CreditcardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/exception/errors/OrderExceptionNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/repository/CreditcardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/security/WebConfiCors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/services/CreditcardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderAPI/src/test/java/br/com/DrinksAndClubs/Order/OrderApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/controller/CreditcardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/controller/CreditcardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/Creditcard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/Creditcard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/repository/CreditcardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/repository/CreditcardRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/CreditcardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/CreditcardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/br/com/ecommerceg4/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/br/com/ecommerceg4/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/OrderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/controller/CreditcardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/exception/errors/OrderExceptionNotFound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/Creditcard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/model/creditcard.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/model/Creditcard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/repository/CreditcardRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/security/WebConfiCors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/security/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/CreditcardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/br/com/DrinksAndClubs/Order/services/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/test/java/br/com/DrinksAndClubs/Order/OrderApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/apiusers.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/apiusers.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/gateway.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/order.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/orderapi.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/product.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/product.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/service-discovery.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/service-discovery.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -52,20 +100,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "C:/Users/a832444/e-commerceG4/e-commerceG4/config",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projetos/e-commerceG4/OrderAPI&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.DrinksAndClubs.Order.exception.errors" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\a832444\e-commerceG4\e-commerceG4\config" />
       <recent name="C:\Users\a832444\e-commerceG4\e-commerceG4\Order\src\main\java\br\com\DrinksAndClubs\Order" />
@@ -74,16 +125,17 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projetos\e-commerceG4\Order\src\main\java\br\com\DrinksAndClubs\Order" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.DrinksAndClubs.Order.exception.errors" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.OrderApplication">
-    <configuration name="ApiUsersApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="19" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.br.atos.APIUsers.ApiUsersApplication" />
-      <module name="API-Users" />
+    <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ecommerceg4.config.ConfigServerApplication" />
+      <module name="config-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.br.atos.APIUsers.*" />
+          <option name="PATTERN" value="br.com.ecommerceg4.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,7 +158,7 @@
     </configuration>
     <configuration name="OrderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.DrinksAndClubs.Order.OrderApplication" />
-      <module name="Order" />
+      <module name="OrderAPI" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.DrinksAndClubs.Order.*" />
@@ -117,7 +169,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductApiApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rafael.ProductApi.ProductApiApplication" />
       <module name="ProductApi" />
       <extension name="coverage">
@@ -144,19 +196,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ConfigServerApplication" />
       <item itemvalue="Application.OrderApplication" />
       <item itemvalue="Application.ProductApiApplication" />
       <item itemvalue="Application.GatewayApplication" />
       <item itemvalue="Application.ServiceDiscoveryApplication" />
-      <item itemvalue="Application.ApiUsersApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.OrderApplication" />
         <item itemvalue="Application.GatewayApplication" />
-        <item itemvalue="Application.ProductApiApplication" />
-        <item itemvalue="Application.ApiUsersApplication" />
         <item itemvalue="Application.ServiceDiscoveryApplication" />
+        <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.ProductApiApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +263,19 @@
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.tool.schema.spi.CommandAcceptanceException" package="org.hibernate.tool.schema.spi" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/service/UserService.java</url>
+          <line>35</line>
+          <properties class="com.br.atos.APIUsers.service.UserService" method="createUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
