@@ -15,15 +15,11 @@ public class ProductController {
 
     private final ProductService productService;
 
-    @GetMapping
-    public String get(){
-        return "deu certo!!";
-    }
 
-//    @GetMapping
-//    public ResponseEntity<Product> getProduct(@RequestParam Integer id) {
-//        return ResponseEntity.ok().body(productService.getProduct(id));
-//    }
+    @GetMapping
+    public ResponseEntity<Product> getProduct(@RequestParam Long id) {
+        return ResponseEntity.ok().body(productService.getProduct(id));
+    }
 
     @GetMapping("/all")
     public ResponseEntity<List<Product>> getProducts() {
@@ -43,7 +39,7 @@ public class ProductController {
     }
 
     @DeleteMapping
-    public ResponseEntity deleteProduct(@RequestParam Integer id) {
+    public ResponseEntity deleteProduct(@RequestParam Long id) {
         productService.deleteProduct(id);
         return ResponseEntity.ok().body(null);
     }

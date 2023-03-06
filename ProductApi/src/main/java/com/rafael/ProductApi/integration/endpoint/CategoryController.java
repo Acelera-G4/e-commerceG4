@@ -16,7 +16,7 @@ public class CategoryController {
     private final CategoryService categoryService;
 
     @GetMapping
-    public ResponseEntity<Category> getCategory(@RequestParam Integer categoryId) {
+    public ResponseEntity<Category> getCategory(@RequestParam Long categoryId) {
         return ResponseEntity.ok().body(categoryService.getCategory(categoryId));
     }
 
@@ -38,7 +38,7 @@ public class CategoryController {
     }
 
     @DeleteMapping
-    public ResponseEntity deleteCategory(@RequestParam Integer categoryId) {
+    public ResponseEntity deleteCategory(@RequestParam Long categoryId) {
         categoryService.deleteCategory(categoryId);
         return ResponseEntity.ok().body(null);
     }

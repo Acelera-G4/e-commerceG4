@@ -8,11 +8,11 @@
 		<version>2.7.8</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.rafael</groupId>
-	<artifactId>ProductApi</artifactId>
+	<groupId>br.com.DrinksAndClubs</groupId>
+	<artifactId>OrderAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ProductApi</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Order</name>
+	<description>microserviço integrante de e-commerceG4</description>
 	<properties>
 		<java.version>19</java.version>
 		<spring-cloud.version>2021.0.5</spring-cloud.version>
@@ -104,6 +104,7 @@
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -115,7 +116,6 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
 	<build>
 		<plugins>
 			<plugin>
