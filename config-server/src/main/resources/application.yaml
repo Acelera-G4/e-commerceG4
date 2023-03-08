@@ -4,15 +4,16 @@ spring:
   application:
     name: config-server
 
-    ##pega direto do git
+#    ##pega direto do git
 #  cloud:
 #    config:
 #      server:
 #        git:
-#          uri: https://github.com/Acelera-G4/e-commerceG4/tree/vscGabriel/config
-#          username: vscGabriel
-#          password: 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
-          ## local
+#          uri: https://github.com/Acelera-G4/e-commerceG4/tree/main/config
+#          skip-ssl-validation: true
+
+
+   # local
   profiles:
     active: native
   cloud:

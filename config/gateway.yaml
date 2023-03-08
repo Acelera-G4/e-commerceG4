@@ -6,18 +6,42 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://localhost:9001/eureka
-#  cloud:
-#    gateway:
-#      discovery:
-#        locator:
-#          enabled: true
-#          lower-case-service-id: true
-#      routes:
-#        - id: USERS
-#          uri: http://localhost:8081/
-#          predicates:
-#            - Path=/cadastro/**
-#        - id: PRODUCT
-#          uri: http://localhost:8095/
-#          predicates:
-#            - Path=/order/**
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: user
+          uri: http://localhost:8095
+          predicates:
+            - Method=GET,POST,PUT,DELETE
+            - Path=/user/**
+        - id: address
+          uri: http://localhost:8095
+          predicates:
+            - Method=GET,POST,PUT,DELETE
+            - Path=/address/**
+        - id: product
+          uri: http://localhost:8091
+          predicates:
+            - Method=GET,POST,PUT,DELETE
+            - Path=/product/**
+        - id: category
+          uri: http://localhost:8091
+          predicates:
+            - Method=GET,POST,PUT,DELETE
+            - Path=/category/**
+        - id: order
+          uri: http://localhost:8099
+          predicates:
+            - Method=GET,POST,PUT,DELETE
+            - Path=/order/**
+        - id: card
+          uri: http://localhost:8099
+          predicates:
+            - Method=GET,POST,PUT,DELETE
+            - Path=/card/**
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:4200"
+            allowedMethods: "*"
