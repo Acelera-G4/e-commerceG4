@@ -1,12 +1,0 @@
-
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ô­´
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œÅ·í
-g	java:S116"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ïÓÿÿÿÿÿ
-e	java:S116"QRename this field "Number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Š¡1
-i	java:S116"URename this field "id_product" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œêğ	
-g	java:S116 "RRename this field "Payment" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®²ã
-k	java:S116$"WRename this field "ID_Credicard" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓŠ¢
-m	java:S116'"SRename this field "Delivery" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğó½åûÿÿÿÿ
-n	java:S116+"TRename this field "ID_Client" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÊ½«øÿÿÿÿ
-4
-java:S1128"Remove this duplicated import.(÷‰îƒ
