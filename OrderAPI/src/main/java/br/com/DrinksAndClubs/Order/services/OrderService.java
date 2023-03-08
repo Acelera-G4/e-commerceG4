@@ -34,7 +34,7 @@ public class OrderService {
                     newOrder.setNumber(order.getNumber());
                     newOrder.setOrderProduct(order.getOrderProduct());
                     newOrder.setPayment(order.getPayment());
-                    newOrder.setDelivery(order.getDelivery());
+                    newOrder.setDelivery(order.isDelivery());
                     newOrder.setClientID(order.getClientID());
                     Order updatedOrder = orderRepository.save(newOrder);
                     return ResponseEntity.ok().body(updatedOrder);

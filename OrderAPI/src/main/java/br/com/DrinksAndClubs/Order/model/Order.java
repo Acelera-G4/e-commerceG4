@@ -20,10 +20,19 @@ public class Order {
     private List<OrderProduct> orderProduct = new ArrayList<>();
     private String payment; //tipo de pagamento
 
-    private int delivery; //Forma de entrega
+    private boolean delivery; //Forma de entrega se true = entrega; else takeaway
 
-    private Long clientID; //Id do cliente
+    public boolean isDelivery() {
+        return delivery;
+    }
+
+    public void setDelivery(boolean delivery) {
+        this.delivery = delivery;
+    }
+
+    private Long clientID; //Id do cliente(user)
 
     @ManyToOne
     private Creditcard credicard; //Dados do cartão de crédito
+
 }

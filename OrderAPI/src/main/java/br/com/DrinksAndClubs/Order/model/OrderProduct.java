@@ -11,5 +11,6 @@ public class OrderProduct {
     @Id
     private Long Id;
     private String name;
+    private int quantity;
     private double unit;
 }
