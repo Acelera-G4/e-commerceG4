@@ -9,7 +9,6 @@ import javax.persistence.*;
 @Getter
 @Setter
 public class Product {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long productId;
@@ -20,8 +19,12 @@ public class Product {
 
     private Double price;
 
+    private boolean isActive;
+
     private Integer quantity;
 
     @ManyToOne
     private Category category;
+
+    private String image;
 }

@@ -11,12 +11,13 @@ import java.util.List;
 @RestController
 @RequestMapping("/category")
 @AllArgsConstructor
+@CrossOrigin(origins = "*", allowedHeaders = "*",exposedHeaders = "*")
 public class CategoryController {
 
     private final CategoryService categoryService;
 
-    @GetMapping
-    public ResponseEntity<Category> getCategory(@RequestParam Long categoryId) {
+    @GetMapping("/{id}")
+    public ResponseEntity<Category> getCategory(@PathVariable Long categoryId) {
         return ResponseEntity.ok().body(categoryService.getCategory(categoryId));
     }
 
@@ -37,8 +38,8 @@ public class CategoryController {
         return ResponseEntity.ok().body(null);
     }
 
-    @DeleteMapping
-    public ResponseEntity deleteCategory(@RequestParam Long categoryId) {
+    @DeleteMapping("/{id}")
+    public ResponseEntity deleteCategory(@PathVariable Long categoryId) {
         categoryService.deleteCategory(categoryId);
         return ResponseEntity.ok().body(null);
     }
