@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/API-Users/API-Users.iml" filepath="$PROJECT_DIR$/API-Users/API-Users.iml" />
       <module fileurl="file://$PROJECT_DIR$/OrderAPI/OrderAPI.iml" filepath="$PROJECT_DIR$/OrderAPI/OrderAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProductApi/ProductApi.iml" filepath="$PROJECT_DIR$/ProductApi/ProductApi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-discovery/service-discovery.iml" filepath="$PROJECT_DIR$/service-discovery/service-discovery.iml" />

@@ -4,22 +4,23 @@ spring:
   application:
     name: config-server
 
-#    ##pega direto do git
-#  cloud:
-#    config:
-#      server:
-#        git:
-#          uri: https://github.com/Acelera-G4/e-commerceG4/tree/main/config
-#          skip-ssl-validation: true
-
-
-   # local
-  profiles:
-    active: native
+#    ##pega direto do github
   cloud:
     config:
       server:
-        git: file://C://Users//a832444//e-commerceG4//e-commerceG4//config
+        git:
+          uri: https://github.com/Acelera-G4/config-repo
+          search-paths:
+            - config
+          skipSslValidation: true
+
+#   # local
+#  profiles:
+#    active: native
+#  cloud:
+#    config:
+#      server:
+#        git: file://C://Users//a832444//e-commerceG4//e-commerceG4//config
 eureka:
   client:
     registerWithEureka: true

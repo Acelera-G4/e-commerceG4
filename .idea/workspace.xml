@@ -6,16 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="21bb6def-d3cb-493c-a643-a62f71767e06" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/security/WebConfiCors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/model/OrderProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/model/OrderProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/services/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/services/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Users/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderAPI/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OrderAPI/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductApi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProductApi/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/apiusers.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/apiusers.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/gateway.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/orderapi.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/orderapi.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/product.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/product.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/br/com/ecommerceg4/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/br/com/ecommerceg4/gateway/GatewayApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,11 +144,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductApiApplication" />
-        <item itemvalue="Application.GatewayApplication" />
-        <item itemvalue="Application.OrderApplication" />
         <item itemvalue="Application.ApiUsersApplication" />
+        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.ServiceDiscoveryApplication" />
+        <item itemvalue="Application.ProductApiApplication" />
+        <item itemvalue="Application.OrderApplication" />
       </list>
     </recent_temporary>
   </component>
