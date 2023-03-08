@@ -11,13 +11,13 @@ import java.util.List;
 @RestController
 @RequestMapping("/product")
 @AllArgsConstructor
+@CrossOrigin(origins = "*", allowedHeaders = "*",exposedHeaders = "*")
 public class ProductController {
 
     private final ProductService productService;
 
-
-    @GetMapping
-    public ResponseEntity<Product> getProduct(@RequestParam Long id) {
+    @GetMapping("/{id}")
+    public ResponseEntity<Product> getProduct(@PathVariable Long id) {
         return ResponseEntity.ok().body(productService.getProduct(id));
     }
 
@@ -38,8 +38,8 @@ public class ProductController {
         return ResponseEntity.ok().body(null);
     }
 
-    @DeleteMapping
-    public ResponseEntity deleteProduct(@RequestParam Long id) {
+    @DeleteMapping("/{id}")
+    public ResponseEntity deleteProduct(@PathVariable Long id) {
         productService.deleteProduct(id);
         return ResponseEntity.ok().body(null);
     }
