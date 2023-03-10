@@ -1,0 +1,10 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÕëÿúÿÿÿÿ8ùåíÉë0
+f
+java:S1874"DRemove this use of "WebSecurityConfigurerAdapter"; it is deprecated.(Ã÷ ´ıÿÿÿÿ8Çù½íë0
+\
+java:S1161":Add the "@Override" annotation above this method signature(ò—Şëıÿÿÿÿ8şù½íë0
+d
+java:S1874"BRemove this use of "withDefaultPasswordEncoder"; it is deprecated.(ˆ¼İöüÿÿÿÿ8ú½íë0
+n
+java:S1128"QRemove this unused import 'org.springframework.security.web.SecurityFilterChain'.(Ï×ÜÌ8¹ú½íë0
