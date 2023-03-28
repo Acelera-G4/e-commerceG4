@@ -24,7 +24,7 @@ public class AddressController {
 
     @GetMapping
     public List<Address> getAllAddrres() {
-        return addressService.getAllUsers();
+        return addressService.getAllAddress();
     }
 
     @GetMapping("/{id}")
@@ -37,7 +37,8 @@ public class AddressController {
     @ResponseStatus(HttpStatus.CREATED)
     public Address createAddress(@RequestBody Address address){
         log.info("iniciando o cadastro de um usuário: {}", address);
-        return addressService.createAddress(address);
+//        return addressService.createAddress(address);
+        return addressService.searchAddress(address.cep);
 
     }
 

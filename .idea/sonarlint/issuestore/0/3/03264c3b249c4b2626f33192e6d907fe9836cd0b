@@ -1,0 +1,10 @@
+
+J
+java:S37402"/Provide the parametrized type for this generic.(’¯’éþÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ïª‚æýÿÿÿÿ
+Q	java:S125?"<This block of commented-out lines of code should be removed.(íÃ†™
+V	java:S125J"<This block of commented-out lines of code should be removed.(‰Åøÿÿÿÿ
+S	java:S106]"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍþÿÿÿÿ
+S	java:S106j"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍþÿÿÿÿ
+U
+java:S1128"?Remove this unused import 'com.br.atos.APIUsers.model.Address'.(µâ’…

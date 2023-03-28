@@ -11,8 +11,8 @@
         <module name="ProductApi" />
         <module name="gateway" />
         <module name="service-discovery" />
-        <module name="API-Users" />
         <module name="OrderAPI" />
+        <module name="API-Users" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

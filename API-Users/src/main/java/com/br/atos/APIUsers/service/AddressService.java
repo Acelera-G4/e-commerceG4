@@ -1,11 +1,15 @@
 package com.br.atos.APIUsers.service;
 
 import com.br.atos.APIUsers.exception.config.erros.AddressExceptionNotFound;
+import com.br.atos.APIUsers.exception.config.erros.BadArgumentsException;
 import com.br.atos.APIUsers.exception.config.erros.UserExceptionNotFound;
 import com.br.atos.APIUsers.model.Address;
 import com.br.atos.APIUsers.model.User;
 import com.br.atos.APIUsers.repository.AddressRepository;
+import com.br.atos.APIUsers.repository.UserRepository;
+import com.sun.jdi.InternalException;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,15 +22,37 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class AddressService {
 
     @Autowired
     AddressRepository addressRepository;
 
+    @Autowired
+    UserRepository userRepository;
 
     public Address searchAddress(String cep) {
+        log.info("Searching address by cep '{}'",cep);
         String url = "https://viacep.com.br/ws/" + cep + "/json";
-        return new RestTemplate().getForObject(url, Address.class);
+        RestTemplate restTemplate = new RestTemplate();
+        try {
+           ResponseEntity<Address> responseEntity =  restTemplate.getForEntity(url, Address.class);
+
+           if(responseEntity.getStatusCode().is2xxSuccessful()){
+               Address body = responseEntity.getBody();
+               log.info("Address found successfully . . . '{}'", body);
+               return addressRepository.save(body);
+           }
+           throw new RuntimeException(responseEntity.getStatusCode().toString());
+        }catch (Exception e){
+            if(e.getMessage().contains("400")){
+                throw new BadArgumentsException(e.getMessage());
+            }
+            if(e.getMessage().contains("404")){
+                throw new AddressExceptionNotFound(e.getMessage());
+            }
+            throw new InternalException(e.getMessage());
+        }
     }
 
     public Address createAddress(Address address) {
@@ -61,7 +87,7 @@ public class AddressService {
     }
 
 
-    public List<Address> getAllUsers() {
+    public List<Address> getAllAddress() {
         return addressRepository.findAll();
     }
 }
