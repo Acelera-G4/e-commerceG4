@@ -49,10 +49,10 @@ public class UserController {
         return userService.createUser(user);
     }
 
-    @PutMapping("/{id}")
-    public ResponseEntity updateUser(@RequestBody User user, @PathVariable Long id) {
+    @PutMapping()
+    public ResponseEntity updateUser(@RequestBody User user) {
         log.info("Usuário sendo autualizado...");
-        return userService.updateUser(user, id);
+        return ResponseEntity.ok().body(userService.updateUser(user));
 
     }
 

@@ -31,29 +31,6 @@ public class AddressService {
     @Autowired
     UserRepository userRepository;
 
-    public Address searchAddress(String cep) {
-        log.info("Searching address by cep '{}'",cep);
-        String url = "https://viacep.com.br/ws/" + cep + "/json";
-        RestTemplate restTemplate = new RestTemplate();
-        try {
-           ResponseEntity<Address> responseEntity =  restTemplate.getForEntity(url, Address.class);
-
-           if(responseEntity.getStatusCode().is2xxSuccessful()){
-               Address body = responseEntity.getBody();
-               log.info("Address found successfully . . . '{}'", body);
-               return addressRepository.save(body);
-           }
-           throw new RuntimeException(responseEntity.getStatusCode().toString());
-        }catch (Exception e){
-            if(e.getMessage().contains("400")){
-                throw new BadArgumentsException(e.getMessage());
-            }
-            if(e.getMessage().contains("404")){
-                throw new AddressExceptionNotFound(e.getMessage());
-            }
-            throw new InternalException(e.getMessage());
-        }
-    }
 
     public Address createAddress(Address address) {
         return addressRepository.save(address);

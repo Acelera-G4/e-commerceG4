@@ -1,13 +1,0 @@
-
-j
-java:S1104"OMake cep a static final constant or non-public and provide accessors if needed.(¤³„üúÿÿÿÿ
-i
-java:S1104"NMake uf a static final constant or non-public and provide accessors if needed.(¥Üêûÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼õšçûÿÿÿÿ
-X	java:S125#"<This block of commented-out lines of code should be removed.(ØÛµ™8èÀ¦…ò0
-a
-java:S1128"?Remove this unused import 'org.hibernate.annotations.OnDelete'.(¸´€áùÿÿÿÿ8íÀ¦…ò0
-g
-java:S1128"ERemove this unused import 'org.hibernate.annotations.OnDeleteAction'.(ÅöŒ”üÿÿÿÿ8ïÀ¦…ò0
-M
-java:S1128	"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8áé©„ò0

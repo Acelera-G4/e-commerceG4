@@ -29,8 +29,4 @@ public class Address {
     public String city;
     public String uf;
 
-//    @ManyToOne(fetch = FetchType.LAZY)
-//    @JoinColumn(name = "user_id", referencedColumnName = "id")
-//    @OnDelete(action = OnDeleteAction.CASCADE)
-//    private User user;
 }

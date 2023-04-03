@@ -35,32 +35,23 @@ public class UserService {
 
     public User createUser(User user) throws DuplicateUserException {
 
-
-            if (userRepository.existsByCpf(user.getCpf())) {
-                throw new DuplicateUserException("Já existe um usuário com este CPF.");
-            }
-            if (userRepository.existsByEmail(user.getEmail())) {
-                throw new DuplicateUserException("Já existe um usuário com este e-mail.");
-            }
-            return userRepository.save(user);
+        if (userRepository.existsByCpf(user.getCpf())) {
+            throw new DuplicateUserException("Já existe um usuário com este CPF.");
+        }
+        if (userRepository.existsByEmail(user.getEmail())) {
+            throw new DuplicateUserException("Já existe um usuário com este e-mail.");
+        }
+        return userRepository.save(user);
 
     }
 
 
-    public ResponseEntity updateUser(@RequestBody User user, Long id) {
-        return userRepository.findById(id).map(
-                newUser -> {
-                    newUser.setName(user.getName());
-                    newUser.setCpf(user.getCpf());
-                    newUser.setDateOfBirthday(user.getDateOfBirthday());
-                    newUser.setEmail(user.getEmail());
-                    newUser.setUserType(user.getUserType());
-                    newUser.setPhoneNumber(user.getUserType());
-                    newUser.setPassword(user.getPassword());
-                    User updatedUser = userRepository.save(newUser);
-                    return ResponseEntity.ok().body(updatedUser);
-                }).orElseThrow(() -> new UserExceptionNotFound(("Id não localizado")));
-//                .orElse(ResponseEntity.status(HttpStatus.NOT_FOUND).build());
+    public User updateUser(@RequestBody User user) {
+        if (userRepository.existsById(user.getId())) {
+            return userRepository.save(user);
+        }
+        throw new RuntimeException("Id inválido");
+
     }
 
     public void deleteUser(Long id) {
@@ -71,16 +62,6 @@ public class UserService {
         }
     }
 
-//    public void existsCpfOrEmail(User user) {
-//        Optional<User> userEntityCpf = userRepository.findByCpf(user.getCpf());
-//        Optional<User> UserEntityEmail = userRepository.findByEmail(user.getEmail());
-//        if (userEntityCpf.isPresent()) {
-//            throw new DuplicateUserException("CPF já cadastrado na aplicação");
-//        }
-//        if (UserEntityEmail.isPresent()) {
-//            throw new DuplicateUserException("Email já cadastrado na aplicação");
-//        }
-//    }
 
     public ResponseEntity<User> searchCpf(String cpf) {
         try {

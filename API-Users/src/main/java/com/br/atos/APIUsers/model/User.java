@@ -51,11 +51,8 @@ public class User {
     //    @NotNull
     private String password;
 
-    @OneToMany
-    @Valid
-    private List<Address> addresses;
-
-
+    @OneToMany(cascade= CascadeType.ALL)
+    private List<Address> address;
 
 
 }
