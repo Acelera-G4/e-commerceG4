@@ -22,4 +22,6 @@ public class Category {
     private String description;
 
     private boolean isActive;
+
+    private boolean isMain;
 }

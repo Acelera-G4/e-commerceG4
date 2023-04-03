@@ -26,6 +26,11 @@ public class CategoryController {
         return ResponseEntity.ok().body(categoryService.getCategories());
     }
 
+    @GetMapping("/main")
+    public ResponseEntity<List<Category>> getMainCategories() {
+        return ResponseEntity.ok().body(categoryService.getMainCategories());
+    }
+
     @PostMapping
     public ResponseEntity<Category> postCategory(@RequestBody Category category) {
         categoryService.postCategory(category);
