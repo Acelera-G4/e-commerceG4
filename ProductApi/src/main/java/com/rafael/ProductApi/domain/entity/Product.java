@@ -23,7 +23,7 @@ public class Product {
 
     private Integer quantity;
 
-    @ManyToOne
+    @ManyToOne(cascade= CascadeType.ALL)
     private Category category;
 
     private String image;

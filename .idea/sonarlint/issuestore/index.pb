@@ -1,8 +1,6 @@
 
 E
 config-server/pom.xml,a\2\a2f9618c8ad821b143a07a29a9805fcb0b2df470
-z
-JProductApi/src/main/java/com/rafael/ProductApi/domain/entity/Category.java,5\c\5c41d1c313509e27790286ddaaa307a8a5ec99df
 r
 BAPI-Users/src/main/java/com/br/atos/APIUsers/enums/TypeClient.java,e\b\eb6ebaaf81ea64ca7fdd0d9f67ba65dcd8e34d7d
 ‘
@@ -29,3 +27,5 @@ B
 ProductApi/pom.xml,b\7\b7ba3940b876aea604d5a585b635a98467f6a1f0
 {
 KAPI-Users/src/main/java/com/br/atos/APIUsers/repository/UserRepository.java,1\a\1a6372a7f9a2b58e653cae385e67fe4995d94a05
+o
+?API-Users/src/main/java/com/br/atos/APIUsers/model/Address.java,1\7\170887b8ab34f36dc963da207ac46aae48178237

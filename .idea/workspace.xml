@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21bb6def-d3cb-493c-a643-a62f71767e06" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03264c3b249c4b2626f33192e6d907fe9836cd0b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/170887b8ab34f36dc963da207ac46aae48178237" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1a6372a7f9a2b58e653cae385e67fe4995d94a05" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/202fe42e8ef2dbf0f818790f27f11798e6f97111" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2be559aea7b4cb3132e32dfc7551396991a5b14f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/553c42c57641a47c74f6b8a70ef5e6b1f8e6c5e3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5973d48f0c520e44c3dd0a1b640b4113a404ef0d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7028c2232c4238db8ee090f5971ed33f0053761d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d73e73c9b5b83ea211cd7d5fca804b73175dbf1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b15b8ed046f6bbceae98c8bd001b1f4fb073ef96" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7ba3940b876aea604d5a585b635a98467f6a1f0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/controllers/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/controllers/AddressController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/service/AddressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/domain/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/domain/entity/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +213,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ProductApi/src/main/java/com/rafael/ProductApi/integration/endpoint/CategoryController.java</url>
-          <line>30</line>
+          <line>35</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

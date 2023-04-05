@@ -53,7 +53,6 @@ public class UserController {
     public ResponseEntity updateUser(@RequestBody User user) {
         log.info("Usuário sendo autualizado...");
         return ResponseEntity.ok().body(userService.updateUser(user));
-
     }
 
     @DeleteMapping("/{id}")
