@@ -28,8 +28,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity httpSecurity) throws Exception {
         httpSecurity.csrf().disable();
         httpSecurity
-//                .authorizeRequests(auth -> auth.anyRequest().hasRole("USER"))
-                .authorizeHttpRequests(auth -> auth.anyRequest().hasRole("USER"))
+                .authorizeRequests(auth -> auth.anyRequest().hasRole("USER"))
+//                .authorizeHttpRequests(auth -> auth.anyRequest().hasRole("USER"))
                 .httpBasic(Customizer.withDefaults());
 
    }

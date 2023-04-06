@@ -6,7 +6,6 @@ import javax.persistence.*;
 import java.util.*;
 
 @Entity
-@Table(name = "tb_order")
 @Data
 public class Order {
 
@@ -14,9 +13,9 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long orderID; //ID do pedido
 
-    private Long number; //Numero do pedido
+    private Long numberOrder; //Numero do pedido
 
-    @ManyToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<OrderProduct> orderProduct = new ArrayList<>();
     private String payment; //tipo de pagamento
 
@@ -31,8 +30,5 @@ public class Order {
     }
 
     private Long clientID; //Id do cliente(user)
-
-    @ManyToOne
-    private Creditcard credicard; //Dados do cartão de crédito
 
 }

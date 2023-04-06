@@ -9,15 +9,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
         <module name="ProductApi" />
-        <module name="gateway" />
-        <module name="service-discovery" />
+        <module name="EmailApi" />
         <module name="OrderAPI" />
         <module name="API-Users" />
+        <module name="gateway" />
+        <module name="service-discovery" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="API-Users" target="19" />
       <module name="config-server" target="19" />
+      <module name="EmailApi" target="17" />
       <module name="gateway" target="19" />
       <module name="OrderAPI" target="19" />
       <module name="ProductApi" target="19" />
@@ -27,6 +29,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="API-Users" options="-parameters" />
+      <module name="EmailApi" options="-parameters" />
       <module name="OrderAPI" options="-parameters" />
       <module name="ProductApi" options="-parameters" />
       <module name="config-server" options="-parameters" />

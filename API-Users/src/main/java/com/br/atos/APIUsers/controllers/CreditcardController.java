@@ -1,7 +1,7 @@
-package br.com.DrinksAndClubs.Order.controller;
+package com.br.atos.APIUsers.controllers;
 
-import br.com.DrinksAndClubs.Order.model.Creditcard;
-import br.com.DrinksAndClubs.Order.services.CreditcardService;
+import com.br.atos.APIUsers.model.Creditcard;
+import com.br.atos.APIUsers.service.CreditcardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

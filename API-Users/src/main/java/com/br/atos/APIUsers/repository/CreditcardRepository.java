@@ -1,6 +1,7 @@
-package br.com.DrinksAndClubs.Order.repository;
+package com.br.atos.APIUsers.repository;
 
-import br.com.DrinksAndClubs.Order.model.Creditcard;
+
+import com.br.atos.APIUsers.model.Creditcard;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
