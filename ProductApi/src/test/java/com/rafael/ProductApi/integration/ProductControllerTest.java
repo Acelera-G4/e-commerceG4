@@ -83,6 +83,23 @@ public class ProductControllerTest {
     }
 
     @Test
+    public void givenProductWhenCallPostProductThenSaveProduct()
+            throws Exception {
+        Product product = Product.builder()
+                .withProductId(1L)
+                .withName("Product Test")
+                .withDescription("Description Test")
+                .withImage("image.png")
+                .withPrice(9.99)
+                .withIsActive(true)
+                .build();
+
+        mvc.perform(MockMvcRequestBuilders.post("/product").content(new ObjectMapper().writeValueAsString(product))
+                        .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk());
+    }
+
+    @Test
     public void givenProductWhenCallPutProductThenUpdateProduct()
             throws Exception {
         Product product = Product.builder()
