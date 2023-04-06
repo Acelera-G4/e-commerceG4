@@ -97,6 +97,21 @@ public class CategoryControllerTest {
     }
 
     @Test
+    public void givenCategoryWhenCallPostCategoryThenSaveCategory()
+            throws Exception {
+        Category category = Category.builder()
+                .withCategoryId(1L)
+                .withName("Category Test")
+                .withDescription("Category Description")
+                .withIsMain(true)
+                .build();
+
+        mvc.perform(MockMvcRequestBuilders.post("/category").content(new ObjectMapper().writeValueAsString(category))
+                        .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk());
+    }
+
+    @Test
     public void givenCategoryWhenCallPutCategoryThenUpdateCategory()
             throws Exception {
         Category category = Category.builder()
