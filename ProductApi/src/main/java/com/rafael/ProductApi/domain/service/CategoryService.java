@@ -63,7 +63,9 @@ public class CategoryService {
     public void deleteCategory(Long id) {
         Optional<Category> optionalCategory = categoryRepository.findById(id);
         if(optionalCategory.isPresent()){
-            categoryRepository.deleteById(id);
+            Category category = optionalCategory.get();
+            category.setActive(false);
+            categoryRepository.save(category);
         } else {
             throw new CategoryNotFoundException(CATEGORY_NOT_FOUND);
         }

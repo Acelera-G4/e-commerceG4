@@ -17,8 +17,8 @@ public class CategoryController {
     private final CategoryService categoryService;
 
     @GetMapping("/{id}")
-    public ResponseEntity<Category> getCategory(@PathVariable Long categoryId) {
-        return ResponseEntity.ok().body(categoryService.getCategory(categoryId));
+    public ResponseEntity<Category> getCategory(@PathVariable Long id) {
+        return ResponseEntity.ok().body(categoryService.getCategory(id));
     }
 
     @GetMapping
@@ -44,8 +44,8 @@ public class CategoryController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity deleteCategory(@PathVariable Long categoryId) {
-        categoryService.deleteCategory(categoryId);
+    public ResponseEntity deleteCategory(@PathVariable Long id) {
+        categoryService.deleteCategory(id);
         return ResponseEntity.ok().body(null);
     }
 }
