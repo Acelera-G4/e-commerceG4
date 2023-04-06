@@ -55,6 +55,9 @@ public class User {
     @Valid
     private List<Address> addresses;
 
+    @OneToMany(cascade = CascadeType.ALL)
+    private List<Creditcard> creditcardList;
+
 
 
 
