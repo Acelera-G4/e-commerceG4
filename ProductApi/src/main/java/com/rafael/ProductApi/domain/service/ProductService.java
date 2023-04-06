@@ -46,7 +46,9 @@ public class ProductService {
     public void deleteProduct(Long id) {
         Optional<Product> optionalProduct = productRepository.findById(id);
         if(optionalProduct.isPresent()){
-            productRepository.deleteById(id);
+            Product product = optionalProduct.get();
+            product.setActive(false);
+            productRepository.save(product);
         } else {
             throw new ProductNotFoundException(PRODUCT_NOT_FOUND);
         }
