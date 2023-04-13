@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21bb6def-d3cb-493c-a643-a62f71767e06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/model/Creditcard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/controller/CreditcardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/controllers/CreditcardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/exception/errors/CreditcardOrderExceptionNotFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/exception/config/erros/CreditcardOrderExceptionNotFound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/model/Creditcard.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/model/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/model/OrderProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/model/OrderProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/repository/CreditcardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/repository/CreditcardRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/security/WebConfiCors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/services/CreditcardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Users/src/main/java/com/br/atos/APIUsers/service/CreditcardService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/services/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderAPI/src/main/java/br/com/DrinksAndClubs/Order/services/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,19 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "D:/e-commerceG4/EmailApi",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/e-commerceG4/EmailApi&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\a832444\e-commerceG4\e-commerceG4\config" />
@@ -83,7 +70,7 @@
       <recent name="com.br.atos.APIUsers.exception.config.erros" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderApplication">
+  <component name="RunManager" selected="Application.ApiUsersApplication">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -116,9 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiUsersApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="19" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <configuration name="ApiUsersApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.br.atos.APIUsers.ApiUsersApplication" />
       <module name="API-Users" />
       <extension name="coverage">
@@ -222,7 +207,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Will" />
+                        <option value="vscGabriel" />
                       </list>
                     </value>
                   </entry>
