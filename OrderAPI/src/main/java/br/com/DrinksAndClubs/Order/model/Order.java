@@ -7,6 +7,7 @@ import java.util.*;
 
 @Entity
 @Data
+@Table(name = "order1")
 public class Order {
 
     @Id
@@ -16,11 +17,12 @@ public class Order {
     private Long numberOrder; //Numero do pedido
 
     @OneToMany(cascade = CascadeType.ALL)
-    private List<OrderProduct> orderProduct = new ArrayList<>();
+    private List<OrderProduct> listProducts = new ArrayList<>();
     private String payment; //tipo de pagamento
 
     private boolean delivery; //Forma de entrega se true = entrega; else takeaway
 
+    private boolean finished;
     public boolean isDelivery() {
         return delivery;
     }
