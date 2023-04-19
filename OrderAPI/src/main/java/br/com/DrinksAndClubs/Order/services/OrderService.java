@@ -31,7 +31,7 @@ public class OrderService {
     public ResponseEntity updateOrder(@RequestBody Order order, Long id) {
         return orderRepository.findById(id).map(
                 newOrder -> {
-                    newOrder.setNumberOrder(order.getNumberOrder());
+
                     newOrder.setListProducts(order.getListProducts());
                     newOrder.setPayment(order.getPayment());
                     newOrder.setDelivery(order.isDelivery());

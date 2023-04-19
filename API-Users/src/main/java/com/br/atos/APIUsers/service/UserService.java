@@ -57,6 +57,8 @@ public class UserService {
                     newUser.setUserType(user.getUserType());
                     newUser.setPhoneNumber(user.getUserType());
                     newUser.setPassword(user.getPassword());
+                    newUser.setAddresses(user.getAddresses());
+                    newUser.setCreditcardList(user.getCreditcardList());
                     User updatedUser = userRepository.save(newUser);
                     return ResponseEntity.ok().body(updatedUser);
                 }).orElseThrow(() -> new UserExceptionNotFound(("Id não localizado")));
