@@ -13,9 +13,6 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long orderID; //ID do pedido
-
-    private Long numberOrder; //Numero do pedido
-
     @OneToMany(cascade = CascadeType.ALL)
     private List<OrderProduct> listProducts = new ArrayList<>();
     private String payment; //tipo de pagamento
